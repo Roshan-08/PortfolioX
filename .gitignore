@@ -1,14 +1,20 @@
-# Node
-node_modules/
-dist/
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend
+backend/__pycache__/
+backend/.venv/
+backend/venv/
 
 # Python
 venv/
 __pycache__/
 *.pyc
 
-# Environment
+# Environment variables
 .env
+*.env
 
 # VS Code
 .vscode/
