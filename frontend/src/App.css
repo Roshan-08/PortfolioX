@@ -1120,3 +1120,16 @@ transition-duration: 0.01ms !important;
     transform: none;
   }
 }
+
+/* PROJECT SECTION IMPROVEMENTS */
+.projects-section > .skills-description {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.project-status {
+  margin: 12px 0 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}

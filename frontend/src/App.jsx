@@ -236,21 +236,29 @@ return (
 
     <section className="coming-section projects-section reveal-on-scroll" id="projects">
       <p className="section-eyebrow">SELECTED WORK</p>
-      <h2>Projects built to solve problems.</h2>
-
+      <h2>Projects that turn ideas into applications.</h2>
+      <p className="skills-description">
+        A selection of my work in backend development, AI integration,
+        and interactive web experiences.
+      </p>
 
       <div className="project-preview reveal-on-scroll">
         <span className="project-number">01</span>
         <div>
           <h3>AI Text Summarizer</h3>
           <p>
-            An AI-powered application built with FastAPI and Google Gemini,
-            with backend validation, caching, rate limiting, and automated
-            tests.
+            An AI-powered text summarization application using FastAPI
+            and Google Gemini. The backend includes input validation,
+            response caching, rate limiting, standardized API responses,
+            and automated tests. Frontend and Docker integration are
+            ongoing.
           </p>
           <span className="project-stack">
             Python / FastAPI / Gemini / pytest
           </span>
+          <p className="project-status">
+            Status: In development
+          </p>
             <a
               className="button button-secondary project-link"
               href="https://github.com/Roshan-08/AI-Text-Summarizer"
@@ -269,10 +277,14 @@ return (
         <div>
           <h3>PortfolioX</h3>
           <p>
-            My interactive developer portfolio, built with React and
-            designed to grow alongside my technical skills.
+            An interactive personal portfolio built with React and
+            JavaScript, featuring animated sections, responsive layouts,
+            technical skills, project showcases, and professional contact links.
           </p>
           <span className="project-stack">React / JavaScript / CSS</span>
+          <p className="project-status">
+            Status: Active development
+          </p>
             <a
               className="button button-secondary project-link"
               href="https://github.com/Roshan-08/PortfolioX"
