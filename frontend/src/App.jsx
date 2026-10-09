@@ -112,30 +112,133 @@ return (
       </div>
     </section>
 
-    
-    <section className="intro-strip reveal-on-scroll" id="about">
-      <p>
-        BUILDING MY SKILLS THROUGH <strong>REAL-WORLD PROJECTS</strong>
+
+    <section className="about-section reveal-on-scroll" id="about">
+      <p className="section-eyebrow">ABOUT ME</p>
+
+      <h2>
+        Building practical solutions with{" "}
+        <span className="gradient-text">Python and AI.</span>
+      </h2>
+
+      <p className="about-description">
+        I'm a Computer Science graduate interested in Python development,
+        backend engineering, and Artificial Intelligence and Machine Learning.
+        I enjoy turning ideas into useful applications through clean code,
+        reliable APIs, and thoughtful problem-solving.
       </p>
-      <span>Curiosity drives the code.</span>
+
+      <p className="about-description">
+        My current work includes an AI-powered text summarization application
+        built with FastAPI and Google Gemini, with input validation, caching,
+        rate limiting, and automated tests. I'm also developing my frontend
+        skills with React to build complete, user-friendly applications.
+      </p>
+
+      <div className="about-highlights">
+        <div className="about-highlight">
+          <strong>Backend Development</strong>
+          <span>Python, FastAPI, REST APIs</span>
+        </div>
+
+        <div className="about-highlight">
+          <strong>AI Integration</strong>
+          <span>LLM APIs and AI-powered applications</span>
+        </div>
+
+        <div className="about-highlight">
+          <strong>Engineering Practices</strong>
+          <span>Validation, testing, and maintainable code</span>
+        </div>
+      </div>
     </section>
 
-    
-    <section className="coming-section reveal-on-scroll" id="skills">
-  
-      <p className="section-eyebrow">MY TOOLKIT</p>
-      <h2>Technologies I'm working with</h2>
-      <p>
-        Python · FastAPI · React · JavaScript · SQL · Git · Machine Learning
+
+    <section className="skills-section reveal-on-scroll" id="skills">
+      <p className="section-eyebrow">TECHNICAL TOOLKIT</p>
+
+      <h2>Skills I use to build and learn.</h2>
+
+      <p className="skills-description">
+        A growing toolkit across software development, backend engineering,
+        and AI-powered applications.
       </p>
+
+      <div className="skills-grid">
+        <article className="skill-card">
+          <span className="skill-number">01</span>
+          <h3>Programming</h3>
+          <div className="skill-tags">
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
+            <span>Java</span>
+          </div>
+        </article>
+
+        <article className="skill-card">
+          <span className="skill-number">02</span>
+          <h3>Backend Development</h3>
+          <div className="skill-tags">
+            <span>FastAPI</span>
+            <span>REST APIs</span>
+            <span>Pydantic</span>
+            <span>Input Validation</span>
+          </div>
+        </article>
+
+        <article className="skill-card">
+          <span className="skill-number">03</span>
+          <h3>AI and Data</h3>
+          <div className="skill-tags">
+            <span>Google Gemini API</span>
+            <span>NumPy</span>
+            <span>Pandas</span>
+            <span>Scikit-learn</span>
+          </div>
+        </article>
+
+        <article className="skill-card">
+          <span className="skill-number">04</span>
+          <h3>Frontend Development</h3>
+          <div className="skill-tags">
+            <span>React</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Responsive Design</span>
+          </div>
+        </article>
+
+        <article className="skill-card">
+          <span className="skill-number">05</span>
+          <h3>Testing and Tools</h3>
+          <div className="skill-tags">
+            <span>pytest</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+          </div>
+        </article>
+
+        <article className="skill-card">
+          <span className="skill-number">06</span>
+          <h3>Databases and Workflow</h3>
+          <div className="skill-tags">
+            <span>MySQL</span>
+            <span>MongoDB</span>
+            <span>Virtual Environments</span>
+            <span>API Testing</span>
+          </div>
+        </article>
+      </div>
     </section>
 
-    
+
     <section className="coming-section projects-section reveal-on-scroll" id="projects">
       <p className="section-eyebrow">SELECTED WORK</p>
       <h2>Projects built to solve problems.</h2>
 
-      
+
       <div className="project-preview reveal-on-scroll">
         <span className="project-number">01</span>
         <div>
@@ -148,11 +251,19 @@ return (
           <span className="project-stack">
             Python / FastAPI / Gemini / pytest
           </span>
+            <a
+              className="button button-secondary project-link"
+              href="https://github.com/Roshan-08/AI-Text-Summarizer"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Source Code <span aria-hidden="true">&#8599;</span>
+            </a>
         </div>
         <span className="project-arrow" aria-hidden="true">↗</span>
       </div>
 
-      
+
       <div className="project-preview reveal-on-scroll">
         <span className="project-number">02</span>
         <div>
@@ -162,12 +273,20 @@ return (
             designed to grow alongside my technical skills.
           </p>
           <span className="project-stack">React / JavaScript / CSS</span>
+            <a
+              className="button button-secondary project-link"
+              href="https://github.com/Roshan-08/PortfolioX"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Source Code <span aria-hidden="true">&#8599;</span>
+            </a>
         </div>
         <span className="project-arrow" aria-hidden="true">↗</span>
       </div>
     </section>
 
-    
+
     <section className="contact-section reveal-on-scroll" id="contact">
       <p className="section-eyebrow">LET'S CONNECT</p>
       <h2>Have an opportunity in mind?</h2>
@@ -183,6 +302,16 @@ return (
       >
         Visit My GitHub <span aria-hidden="true">↗</span>
       </a>
+      <a
+        className="button button-secondary"
+        href="https://www.linkedin.com/in/roshan-kumar-8041bb257"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Connect with Roshan Kumar on LinkedIn"
+      >
+        Connect on LinkedIn <span aria-hidden="true">↗</span>
+      </a>
+
     </section>
   </main>
 
