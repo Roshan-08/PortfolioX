@@ -66,6 +66,14 @@ return (
           <a className="button button-secondary" href="#contact">
             Contact Me
           </a>
+              
+          <a
+            href="/resume.pdf"
+            download="Roshan_Kumar_Mahto_Resume.pdf"
+            className="resume-button"
+          >
+            <span>Download Resume</span>
+          </a>
         </div>
 
         <div className="hero-tech">
